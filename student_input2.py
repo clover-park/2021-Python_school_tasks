@@ -1,4 +1,3 @@
-name = input("이름 : ")
 input_name = input("이름 : ")
 name = str(input_name)
 input_age = input("나이 : ")
