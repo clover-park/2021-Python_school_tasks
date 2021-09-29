@@ -1,27 +1,14 @@
-num = input('점수: ')
+input_number = input('정수 입력 : ')
 
-if num.isdecimal():
-  score=int(num)
-  if score>100:
-    print('입력오류')
-  elif score>=80:
-    print('통과')
-  elif score>=60:
-    print('재시험')
-  elif score<60:
-    print('과락')
-else:
-  print('숫자를 입력해야합니다')
-
-if not num.isdecimal():
+if not input_number.isdecimal():
   print('숫자를 입력해야 합니다')
 else:
-  score=int(num)
+  score=int(input_number)
   if score>100:
-    print('입력오류')
+    print('숫자 범위 오류!!!')
   elif score>=80:
-    print('통과')
+    print('통과!!!')
   elif score>=60:
-    print('재시험')
+    print('재시험!!!')
   elif score<60:
-    print('과락')
+    print('과락!!!')
