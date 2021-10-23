@@ -7,9 +7,9 @@ while True:
     print()
     break
   else:
-      int_list.append(num)
+    int_list.append(num)
 
-reversed_list = reversed(int_list)
+reversed_list = int_list[::-1]
 print('역순 : ', reversed_list)
 print()
 
