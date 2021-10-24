@@ -1,5 +1,4 @@
 int_list = []
-
 while True:
   num = int(input('정수 입력 : '))
   if num == 0:
@@ -10,7 +9,9 @@ while True:
     int_list.append(num)
 
 reversed_list = int_list[::-1]
-print('역순 : ', reversed_list)
+print('역순 : ', end = '')
+for n in reversed_list:
+  print(n, ' ', end='')
 print()
 
 i = len(int_list)
