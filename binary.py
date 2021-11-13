@@ -18,5 +18,6 @@ while True:
     print(str(num) +'의 이진수:',''.join(real_binary), end=' ')
     print('binary()함수 반복횟수:', count)
     print()
+    binary_list.clear()
   else:
     break
