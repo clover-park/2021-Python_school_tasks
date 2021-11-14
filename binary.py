@@ -13,11 +13,10 @@ while True:
   if num >= 0:
     count = 0
     binary_list = []
-    answer = binary(num)
-    real_binary = answer[::-1]
+    binary(num)
+    real_binary = binary_list[::-1]
     print(str(num) +'의 이진수:',''.join(real_binary), end=' ')
     print('binary()함수 반복횟수:', count)
     print()
-    binary_list.clear()
   else:
     break
