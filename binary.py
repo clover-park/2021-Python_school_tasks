@@ -4,7 +4,7 @@ def binary(n):
     global count
     count += 1
     if a > 0 :
-      return binary(a)
+      binary(a)
 
 while True:
   num = int(input('양의 정수 입력(음수입력시 종료): '))
