@@ -3,9 +3,7 @@ def binary(n):
     binary_list.append(str(b))
     global count
     count += 1
-    if a == 0 :
-      return binary_list
-    else :
+    if a > 0 :
       return binary(a)
 
 while True:
